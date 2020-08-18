@@ -1,67 +1,226 @@
 {
-  "name": "acidents",
-  "components": [
+  "name": "driverAccidentsViolations",
+  "componentGroups": [
     {
-      "name": "accidentSubtitle",
-      "type": "H2",
-      "parameters": {
-        "text": "Accidents"
-      },
-      "width": 12
-    },
-    {
-      "name": "accidentHelperText",
-      "type": "H3",
-      "parameters": {
-        "text": "Only add accidents in the past 5 years."
-      },
-      "width": 12
-    },
-    {
-      "name": "accident1",
-      "type": "SummaryEditCell",
-      "parameters": {
-        "upperText": "July 2019",
-        "lowerText": "Collision with another vehicle"
-      },
-      "width": 6,
-      "entitySideEffects": [
+      "name": "header",
+      "components": [
         {
-          "entity": "accidents",
-          "verb": "edit"
+          "name": "accidentViolationTitle",
+          "type": "H1",
+          "parameters": {
+            "text": "How many accidents and violations have you had?"
+          }
         }
       ]
     },
     {
-      "name": "accident2",
-      "type": "SummaryEditCell",
-      "parameters": {
-        "upperText": "August 2019",
-        "lowerText": "Hit pedestrian"
-      },
-      "width": 6,
-      "entitySideEffects": [
+      "name": "acidents",
+      "components": [
         {
-          "entity": "accidents",
-          "verb": "edit"
+          "name": "accidentSubtitle",
+          "type": "H2",
+          "parameters": {
+            "text": "Accidents"
+          }
+        },
+        {
+          "name": "accidentHelperText",
+          "type": "H3",
+          "parameters": {
+            "text": "Only add accidents in the past 5 years."
+          }
+        },
+        {
+          "name": "accident1",
+          "type": "SummaryEditCell",
+          "parameters": {
+            "upperText": "July 2019",
+            "lowerText": "Collision with another vehicle"
+          },
+          "entitySideEffects": [
+            {
+              "entity": "accidents",
+              "verb": "edit"
+            }
+          ]
+        },
+        {
+          "name": "accident2",
+          "type": "SummaryEditCell",
+          "parameters": {
+            "upperText": "August 2019",
+            "lowerText": "Hit pedestrian"
+          },
+          "entitySideEffects": [
+            {
+              "entity": "accidents",
+              "verb": "edit"
+            }
+          ]
+        },
+        {
+          "name": "addAccidentCta",
+          "type": "IconAndTextCta",
+          "parameters": {
+            "icon": "https://s3.pact-insurance.amazonaws.com/plusIcon",
+            "text": "Add accident"
+          },
+          "entitySideEffects": [
+            {
+              "entity": "accidents",
+              "verb": "init",
+              "idType": "UUIDv1"
+            }
+          ]
         }
       ]
     },
     {
-      "name": "addAccidentCta",
-      "type": "IconAndTextCta",
-      "parameters": {
-        "icon": "https://s3.pact-insurance.amazonaws.com/plusIcon",
-        "text": "Add accident"
-      },
-      "width": 12,
-      "entitySideEffects": [
+      "name": "violations",
+      "components": [
         {
-          "entity": "accidents",
-          "verb": "init",
-          "idType": "UUIDv1"
+          "name": "violationSubtitle",
+          "type": "H2",
+          "parameters": {
+            "text": "Violations"
+          }
+        },
+        {
+          "name": "violationHelperText",
+          "type": "H3",
+          "parameters": {
+            "text": "Only add violations in the past 5 years."
+          }
+        },
+        {
+          "name": "violation1",
+          "type": "SummaryEditCell",
+          "parameters": {
+            "upperText": "July 2019",
+            "lowerText": "Speeding ticket"
+          },
+          "entitySideEffects": [
+            {
+              "entity": "violations",
+              "verb": "edit"
+            }
+          ]
+        },
+        {
+          "name": "addViolationCta",
+          "type": "IconAndTextCta",
+          "parameters": {
+            "icon": "https://s3.pact-insurance.amazonaws.com/plusIcon",
+            "text": "Add violation"
+          },
+          "entitySideEffects": [
+            {
+              "entity": "violations",
+              "verb": "init",
+              "idType": "UUIDv1"
+            }
+          ]
         }
       ]
+    },
+    {
+      "name": "confirmationText",
+      "components": [
+        {
+          "name": "confirmationText",
+          "type": "H2",
+          "parameters": {
+            "text": "I confirm all accidents and violations have been added"
+          }
+        }
+      ]
+    },
+    {
+      "name": "primaryCTA",
+      "components": [
+        {
+          "name": "primaryCTA",
+          "type": "PrimaryCtaSlider",
+          "parameters": {
+            "title": "Continue"
+          },
+          "entitySideEffects": []
+        }
+      ]
+    }
+  ],
+  "nextStepLogic": [
+    {
+      "rule": {
+        "==": [
+          {
+            "var": "actionName"
+          },
+          "accident1"
+        ]
+      },
+      "nextStepName": "driverEditAccident",
+      "priority": 4
+    },
+    {
+      "rule": {
+        "==": [
+          {
+            "var": "actionName"
+          },
+          "accident2"
+        ]
+      },
+      "nextStepName": "driverEditAccident",
+      "priority": 5
+    },
+    {
+      "rule": {
+        "==": [
+          {
+            "var": "actionName"
+          },
+          "addAccidentCta"
+        ]
+      },
+      "nextStepName": "driverNewAccident",
+      "priority": 2
+    },
+    {
+      "rule": {
+        "==": [
+          {
+            "var": "actionName"
+          },
+          "violation1"
+        ]
+      },
+      "nextStepName": "driverEditViolation",
+      "priority": 6
+    },
+    {
+      "rule": {
+        "==": [
+          {
+            "var": "actionName"
+          },
+          "addViolationCta"
+        ]
+      },
+      "nextStepName": "driverNewViolation",
+      "priority": 3
+    },
+    {
+      "rule": {
+        "==": [
+          {
+            "var": "actionName"
+          },
+          "primaryCTA"
+        ]
+      },
+      "nextStepName": "driverHome",
+      "priority": 1
     }
   ]
 }
