@@ -1,1 +1,67 @@
-
+{
+  "name": "acidents",
+  "components": [
+    {
+      "name": "accidentSubtitle",
+      "type": "H2",
+      "parameters": {
+        "text": "Accidents"
+      },
+      "width": 12
+    },
+    {
+      "name": "accidentHelperText",
+      "type": "H3",
+      "parameters": {
+        "text": "Only add accidents in the past 5 years."
+      },
+      "width": 12
+    },
+    {
+      "name": "accident1",
+      "type": "SummaryEditCell",
+      "parameters": {
+        "upperText": "July 2019",
+        "lowerText": "Collision with another vehicle"
+      },
+      "width": 6,
+      "entitySideEffects": [
+        {
+          "entity": "accidents",
+          "verb": "edit"
+        }
+      ]
+    },
+    {
+      "name": "accident2",
+      "type": "SummaryEditCell",
+      "parameters": {
+        "upperText": "August 2019",
+        "lowerText": "Hit pedestrian"
+      },
+      "width": 6,
+      "entitySideEffects": [
+        {
+          "entity": "accidents",
+          "verb": "edit"
+        }
+      ]
+    },
+    {
+      "name": "addAccidentCta",
+      "type": "IconAndTextCta",
+      "parameters": {
+        "icon": "https://s3.pact-insurance.amazonaws.com/plusIcon",
+        "text": "Add accident"
+      },
+      "width": 12,
+      "entitySideEffects": [
+        {
+          "entity": "accidents",
+          "verb": "init",
+          "idType": "UUIDv1"
+        }
+      ]
+    }
+  ]
+}
