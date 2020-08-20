@@ -1,10 +1,35 @@
 {
   "name": "driverAccidentsViolations",
   "componentGroups": [
-    
+    {
+      "name": "header",
+      "components": [
+        {
+          "name": "accidentViolationTitle",
+          "type": "H1",
+          "parameters": {
+            "text": "How many accidents and violations have you had?"
+          }
+        }
+      ]
+    },
     {
       "name": "acidents",
       "components": [
+        {
+          "name": "accidentSubtitle",
+          "type": "H2",
+          "parameters": {
+            "text": "Accidents"
+          }
+        },
+        {
+          "name": "accidentHelperText",
+          "type": "H3",
+          "parameters": {
+            "text": "Only add accidents in the past 5 years."
+          }
+        },
         {
           "name": "accident1",
           "type": "SummaryEditCell",
@@ -20,18 +45,78 @@
           ]
         },
         {
-          "name": "violation1",
-          "type": "SummaryEditCell",
+          "name": "addAccidentCta",
+          "type": "IconAndTextCta",
           "parameters": {
-            "upperText": "July 2019",
-            "lowerText": "Speeding ticket"
+            "icon": "https://s3.pact-insurance.amazonaws.com/plusIcon",
+            "text": "Add accident"
+          },
+          "entitySideEffects": [
+            {
+              "entity": "accidents",
+              "verb": "init",
+              "idType": "UUIDv1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "violations",
+      "components": [
+        {
+          "name": "violationSubtitle",
+          "type": "H2",
+          "parameters": {
+            "text": "Violations"
+          }
+        },
+        {
+          "name": "violationHelperText",
+          "type": "H3",
+          "parameters": {
+            "text": "Only add violations in the past 5 years."
+          }
+        },
+        {
+          "name": "addViolationCta",
+          "type": "IconAndTextCta",
+          "parameters": {
+            "icon": "https://s3.pact-insurance.amazonaws.com/plusIcon",
+            "text": "Add violation"
           },
           "entitySideEffects": [
             {
               "entity": "violations",
-              "verb": "edit"
+              "verb": "init",
+              "idType": "UUIDv1"
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "confirmationText",
+      "components": [
+        {
+          "name": "confirmationText",
+          "type": "H2",
+          "parameters": {
+            "text": "I confirm all accidents and violations have been added"
+          }
+        }
+      ]
+    },
+    {
+      "name": "primaryCTA",
+      "components": [
+        {
+          "name": "primaryCTA",
+          "type": "PrimaryCtaSlider",
+          "parameters": {
+            "title": "Continue"
+          },
+          "entitySideEffects": []
         }
       ]
     }
