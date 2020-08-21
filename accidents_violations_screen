@@ -96,18 +96,6 @@
       ]
     },
     {
-      "name": "confirmationText",
-      "components": [
-        {
-          "name": "confirmationText",
-          "type": "H2",
-          "parameters": {
-            "text": "I confirm all accidents and violations have been added"
-          }
-        }
-      ]
-    },
-    {
       "name": "primaryCTA",
       "components": [
         {
