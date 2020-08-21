@@ -79,6 +79,20 @@
           }
         },
         {
+          "name": "violation1",
+          "type": "SummaryEditCell",
+          "parameters": {
+            "upperText": "July 2019",
+            "lowerText": "Speeding ticket"
+          },
+          "entitySideEffects": [
+            {
+              "entity": "violations",
+              "verb": "edit"
+            }
+          ]
+        },
+        {
           "name": "addViolationCta",
           "type": "IconAndTextCta",
           "parameters": {
