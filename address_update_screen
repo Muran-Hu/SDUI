@@ -1,150 +1,93 @@
 {
-  "name": "driverAccidentsViolations",
+  "name": "driverAddress",
   "componentGroups": [
     {
       "name": "header",
       "components": [
         {
-          "name": "accidentViolationTitle",
+          "name": "addressConfirmTitle",
           "type": "H1",
           "parameters": {
-            "text": "How many accidents and violations have you had?"
-          }
+            "text": "Where do you live?"
+          },
+          "styles": {
+            "properties": {
+              "color": "#9c0c0F",
+              "fontSize": 18
+            }
+          },
+          "width": 12
         }
       ]
     },
     {
-      "name": "acidents",
+      "name": "addressDetails",
       "components": [
         {
-          "name": "accidentSubtitle",
-          "type": "H2",
-          "parameters": {
-            "text": "Accidents"
-          }
-        },
-        {
-          "name": "accidentHelperText",
-          "type": "H3",
-          "parameters": {
-            "text": "Only add accidents in the past 5 years."
-          }
-        },
-        {
-          "name": "accident1",
+          "name": "streetAddress",
           "type": "SummaryEditCell",
           "parameters": {
-            "upperText": "July 2019",
-            "lowerText": "Collision with another vehicle"
+            "upperText": "Street address",
+            "lowerText": "Joe Nuxhall Way"
           },
-          "entitySideEffects": [
-            {
-              "entity": "accidents",
-              "verb": "edit"
-            }
-          ]
+          "width": 12
         },
         {
-          "name": "accident2",
+          "name": "city",
           "type": "SummaryEditCell",
           "parameters": {
-            "upperText": "August 2019",
-            "lowerText": "Hit pedestrian"
+            "upperText": "City",
+            "lowerText": "Cincinnati"
           },
-          "entitySideEffects": [
-            {
-              "entity": "accidents",
-              "verb": "edit"
-            }
-          ]
+          "width": 6
         },
         {
-          "name": "addAccidentCta",
+          "name": "apt",
+          "type": "SummaryEditCell",
+          "parameters": {
+            "upperText": "Apt / Suite / Other",
+            "lowerText": "BBL Apt 5"
+          },
+          "width": 6
+        },
+        {
+          "name": "state",
+          "type": "SummaryEditCell",
+          "parameters": {
+            "upperText": "State",
+            "lowerText": "OH"
+          },
+          "width": 12
+        },
+        {
+          "name": "zip",
+          "type": "SummaryEditCell",
+          "parameters": {
+            "upperText": "Zip",
+            "lowerText": "45202"
+          },
+          "width": 4
+        }
+      ]
+    },
+    {
+      "name": "invalidAddress",
+      "components": [
+        {
+          "name": "invalidAddress",
           "type": "IconAndTextCta",
           "parameters": {
-            "icon": "https://s3.pact-insurance.amazonaws.com/plusIcon",
-            "text": "Add accident"
+            "text": "Cancel"
           },
-          "entitySideEffects": [
-            {
-              "entity": "accidents",
-              "verb": "init",
-              "idType": "UUIDv1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "violations",
-      "components": [
-        {
-          "name": "violationSubtitle",
-          "type": "H2",
-          "parameters": {
-            "text": "Violations"
-          }
+          "width": 6
         },
-        {
-          "name": "violationHelperText",
-          "type": "H3",
-          "parameters": {
-            "text": "Only add violations in the past 5 years."
-          }
-        },
-        {
-          "name": "violation1",
-          "type": "SummaryEditCell",
-          "parameters": {
-            "upperText": "July 2019",
-            "lowerText": "Speeding ticket"
-          },
-          "entitySideEffects": [
-            {
-              "entity": "violations",
-              "verb": "edit"
-            }
-          ]
-        },
-        {
-          "name": "addViolationCta",
-          "type": "IconAndTextCta",
-          "parameters": {
-            "icon": "https://s3.pact-insurance.amazonaws.com/plusIcon",
-            "text": "Add violation"
-          },
-          "entitySideEffects": [
-            {
-              "entity": "violations",
-              "verb": "init",
-              "idType": "UUIDv1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "confirmationText",
-      "components": [
-        {
-          "name": "confirmationText",
-          "type": "H2",
-          "parameters": {
-            "text": "I confirm all accidents and violations have been added"
-          }
-        }
-      ]
-    },
-    {
-      "name": "primaryCTA",
-      "components": [
         {
           "name": "primaryCTA",
-          "type": "PrimaryCtaSlider",
+          "type": "IconAndTextCta",
           "parameters": {
-            "title": "Continue"
+            "text": "Save"
           },
-          "entitySideEffects": []
+          "width": 6
         }
       ]
     }
