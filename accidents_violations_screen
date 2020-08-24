@@ -9,10 +9,10 @@
           "type": "H1",
           "parameters": {
             "text": "How many accidents and violations have you had?"
-          }
+          },
+          "width": 12
         }
-      ],
-      "width": 12
+      ]
     },
     {
       "name": "acidents",
