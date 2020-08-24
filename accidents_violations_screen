@@ -11,7 +11,8 @@
             "text": "How many accidents and violations have you had?"
           }
         }
-      ]
+      ],
+      "width": 12
     },
     {
       "name": "acidents",
@@ -21,14 +22,16 @@
           "type": "H2",
           "parameters": {
             "text": "Accidents"
-          }
+          },
+          "width": 12
         },
         {
           "name": "accidentHelperText",
           "type": "H3",
           "parameters": {
             "text": "Only add accidents in the past 5 years."
-          }
+          },
+          "width": 12
         },
         {
           "name": "accident1",
@@ -42,7 +45,8 @@
               "entity": "accidents",
               "verb": "edit"
             }
-          ]
+          ],
+          "width": 12
         },
         {
           "name": "addAccidentCta",
@@ -57,7 +61,8 @@
               "verb": "init",
               "idType": "UUIDv1"
             }
-          ]
+          ],
+          "width": 12
         }
       ]
     },
@@ -69,14 +74,16 @@
           "type": "H2",
           "parameters": {
             "text": "Violations"
-          }
+          },
+          "width": 12
         },
         {
           "name": "violationHelperText",
           "type": "H3",
           "parameters": {
             "text": "Only add violations in the past 5 years."
-          }
+          },
+          "width": 12
         },
         {
           "name": "violation1",
@@ -90,7 +97,8 @@
               "entity": "violations",
               "verb": "edit"
             }
-          ]
+          ],
+          "width": 12
         },
         {
           "name": "addViolationCta",
@@ -105,7 +113,8 @@
               "verb": "init",
               "idType": "UUIDv1"
             }
-          ]
+          ],
+          "width": 12
         }
       ]
     },
@@ -118,7 +127,8 @@
           "parameters": {
             "title": "Continue"
           },
-          "entitySideEffects": []
+          "entitySideEffects": [],
+          "width": 12
         }
       ]
     }
