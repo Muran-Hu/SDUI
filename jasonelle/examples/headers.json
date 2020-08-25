@@ -22,7 +22,7 @@
                     "padding": 30,
                     "spacing": 20,
                     "corner_radius": "5",
-                    "background": "rgba(f,f,f,f)",
+                    "background": "rgba(0,0,0,0.4)",
                     "color": "#484EAA",
                     "font": "Sofia Pro",
                     "size": 32
