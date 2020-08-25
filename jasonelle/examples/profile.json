@@ -17,7 +17,7 @@
               "items": [
                 {
                   "type": "label",
-                  "text": "{{$global.person.about}}",
+                  "text": "Where do you live?",
                   "class": "color-dark-1, font-helvetica-neue-bold"
                 }
               ]
