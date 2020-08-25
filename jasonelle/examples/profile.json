@@ -17,11 +17,15 @@
               "items": [
                 {
                   "type": "label",
-                  "text": "PoC Component - Header 1",
+                  "text": "How many accidents and violations have you had?",
                   "style": {
                     "padding": 30,
                     "spacing": 20,
-                    "align": "center"
+                    "align": "center",
+                    "corner_radius": "5",
+                    "background": "rgba(0,0,0,0.4)",
+                    "color": "#ffffff",
+                    "font": "HelveticaNeue"
                   }
                 }
               ]
