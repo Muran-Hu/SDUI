@@ -19,10 +19,10 @@
                   "type": "label",
                   "text": "PoC Component - Header 1",
                   "style": {
-                                "padding": 30,
-                                "spacing": 20,
-                                "align": "center"
-                            }
+                    "padding": 30,
+                    "spacing": 20,
+                    "align": "center"
+                  }
                 }
               ]
             }
