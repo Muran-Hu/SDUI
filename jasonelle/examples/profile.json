@@ -17,7 +17,7 @@
               "items": [
                 {
                   "type": "label",
-                  "text": "Where do you live?",
+                  "text": "PoC Component - Header 1",
                   "style": {
                                 "padding": 30,
                                 "spacing": 20,
