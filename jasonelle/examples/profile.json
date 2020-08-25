@@ -23,8 +23,8 @@
                     "spacing": 20,
                     "align": "center",
                     "corner_radius": "5",
-                    "background": "rgba(0,0,0,0.4)",
-                    "color": "#ffffff",
+                    "background": "rgba(f,f,f,f)",
+                    "color": "#148554",
                     "font": "HelveticaNeue",
                     "size": 40
                   }
