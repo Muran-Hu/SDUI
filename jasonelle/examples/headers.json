@@ -56,7 +56,7 @@
                 },
                 {
                   "type": "label",
-                  "text": "Header4",
+                  "text": "Header4xxx",
                   "style": {
                     "spacing": 20,
                     "corner_radius": "5",
