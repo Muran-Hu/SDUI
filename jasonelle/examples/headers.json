@@ -1,0 +1,75 @@
+{
+  "$jason": {
+    "head": {
+      "title": "Profile View",
+      "actions": {
+        "$load": {
+          "type": "$render"
+        }
+      },
+      "styles": {
+        "@": "https://raw.githubusercontent.com/Muran-Hu/SDUI/master/jasonelle/examples/styles.json"
+      },
+      "templates": {
+        "body": {
+          "sections": [
+            {
+              "items": [
+                {
+                  "type": "label",
+                  "text": "PoC Component - Header 1",
+                  "style": {
+                    "padding": 30,
+                    "spacing": 20,
+                    "corner_radius": "5",
+                    "background": "rgba(f,f,f,f)",
+                    "color": "#484EAA",
+                    "font": "Sofia Pro",
+                    "size": 32
+                  }
+                },{
+                  "type": "label",
+                  "text": "PoC Component - Header 2",
+                  "style": {
+                    "padding": 30,
+                    "spacing": 20,
+                    "corner_radius": "5",
+                    "background": "rgba(f,f,f,f)",
+                    "color": "#484EAA",
+                    "font": "Sofia Pro",
+                    "size": 16
+                  }
+                },{
+                  "type": "label",
+                  "text": "PoC Component - Header 3",
+                  "style": {
+                    "padding": 30,
+                    "spacing": 20,
+                    "corner_radius": "5",
+                    "background": "rgba(f,f,f,f)",
+                    "color": "#94949E",
+                    "font": "Regular",
+                    "size": 16
+                  }
+                },{
+                  "type": "label",
+                  "text": "PoC Component - Header 4",
+                  "style": {
+                    "padding": 30,
+                    "spacing": 20,
+                    "corner_radius": "5",
+                    "background": "rgba(f,f,f,f)",
+                    "color": "#484EAA",
+                    "font": "Regular",
+                    "size": 12
+                  }
+                },
+                
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
