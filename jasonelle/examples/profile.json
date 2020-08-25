@@ -12,6 +12,16 @@
       },
       "templates": {
         "body": {
+          "body": {
+          "header": {
+            "title": "{{$global.person.name}}",
+            "style": {
+              "background": "#F8DC3D",
+              "color": "#2E2E2C",
+              "font": "HelveticaNeue-Bold",
+              "size": 16
+            }
+          },
           "sections": [
             {
               "items": [
