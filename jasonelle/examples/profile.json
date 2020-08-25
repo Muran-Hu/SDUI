@@ -25,7 +25,8 @@
                     "corner_radius": "5",
                     "background": "rgba(0,0,0,0.4)",
                     "color": "#ffffff",
-                    "font": "HelveticaNeue"
+                    "font": "HelveticaNeue",
+                    "size": 40
                   }
                 }
               ]
