@@ -27,7 +27,8 @@
                     "font": "Sofia Pro",
                     "size": 32
                   }
-                },{
+                },
+                {
                   "type": "label",
                   "text": "PoC Component - Header 2",
                   "style": {
@@ -39,7 +40,8 @@
                     "font": "Sofia Pro",
                     "size": 16
                   }
-                },{
+                },
+                {
                   "type": "label",
                   "text": "PoC Component - Header 3",
                   "style": {
@@ -51,7 +53,8 @@
                     "font": "Regular",
                     "size": 16
                   }
-                },{
+                },
+                {
                   "type": "label",
                   "text": "PoC Component - Header 4",
                   "style": {
@@ -63,8 +66,7 @@
                     "font": "Regular",
                     "size": 12
                   }
-                },
-                
+                }
               ]
             }
           ]
