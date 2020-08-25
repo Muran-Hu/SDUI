@@ -1,7 +1,7 @@
 {
   "$jason": {
     "head": {
-      "title": "Profile View",
+      "title": "PoC Component - Headers",
       "actions": {
         "$load": {
           "type": "$render"
@@ -17,7 +17,7 @@
               "items": [
                 {
                   "type": "label",
-                  "text": "PoC Component - Header1",
+                  "text": "Header1",
                   "style": {
                     "padding": 30,
                     "spacing": 20,
@@ -43,7 +43,7 @@
                 },
                 {
                   "type": "label",
-                  "text": "PoC Component - Header3",
+                  "text": "Header3",
                   "style": {
                     "padding": 30,
                     "spacing": 20,
@@ -56,15 +56,15 @@
                 },
                 {
                   "type": "label",
-                  "text": "PoC Component - Header4",
+                  "text": "Header4",
                   "style": {
-                    "padding": 30,
                     "spacing": 20,
                     "corner_radius": "5",
                     "background": "rgba(f,f,f,f)",
                     "color": "#484EAA",
                     "font": "Regular",
-                    "size": 12
+                    "size": 12,
+                    "padding": 30
                   }
                 }
               ]
