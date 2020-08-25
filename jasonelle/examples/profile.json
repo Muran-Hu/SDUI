@@ -18,7 +18,7 @@
                 {
                   "type": "label",
                   "text": "{{$global.person.about}}",
-                  "class": "color-dark-1, font-helvetica-neue"
+                  "class": "color-dark-1, font-helvetica-neue-bold"
                 }
               ]
             }
