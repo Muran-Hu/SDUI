@@ -34,7 +34,6 @@
                   "style": {
                     "padding": 30,
                     "spacing": 20,
-                    "corner_radius": "5",
                     "background": "rgba(f,f,f,f)",
                     "color": "#484EAA",
                     "font": "Sofia Pro",
