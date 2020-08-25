@@ -30,7 +30,7 @@
                 },
                 {
                   "type": "label",
-                  "text": "PoC Component - Header2",
+                  "text": "Header2",
                   "style": {
                     "padding": 30,
                     "spacing": 20,
@@ -56,7 +56,7 @@
                 },
                 {
                   "type": "label",
-                  "text": "Header4xxx",
+                  "text": "Header4",
                   "style": {
                     "spacing": 20,
                     "corner_radius": "5",
