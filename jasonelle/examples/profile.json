@@ -8,7 +8,7 @@
         }
       },
       "styles": {
-        "@": "https://raw.githubusercontent.com/jasonelle/docs/develop/examples/jasonette/apps/beerjs/includes/styles.json"
+        "@": "https://raw.githubusercontent.com/Muran-Hu/SDUI/master/jasonelle/examples/styles.json"
       },
       "templates": {
         "body": {
