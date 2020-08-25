@@ -16,6 +16,13 @@
             {
               "items": [
                 {
+                  "type": "image",
+                  "url": "{{$global.person.image}}",
+                  "style": {
+                    "width": "100%"
+                  }
+                },
+                {
                   "type": "label",
                   "text": "{{$global.person.about}}",
                   "class": "color-dark-1, font-helvetica-neue"
