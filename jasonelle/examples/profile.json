@@ -18,7 +18,7 @@
                 {
                   "type": "label",
                   "text": "Where do you live?",
-                  "class": "size-20, color-dark-1, font-helvetica-neue-bold"
+                  "class": "padding-20, size-20, color-dark-1, font-helvetica-neue-bold"
                 }
               ]
             }
