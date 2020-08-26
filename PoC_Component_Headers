@@ -32,7 +32,8 @@
           "styles": {
             "properties": {
               "color": "#00FF00",
-              "fontSize": 16
+              "fontSize": 16,
+              "fontWeight": "bold"
             }
           },
           "width": 12
@@ -44,7 +45,7 @@
       "components": [
         {
           "name": "Poc Component - Header 3",
-          "type": "H1",
+          "type": "H3",
           "parameters": {
             "text": "Header 3 | Sofia Pro | 16 pt | regular"
           },
@@ -59,18 +60,37 @@
       ]
     },
     {
-      "name": "header4",
+      "name": "Endnote",
       "components": [
         {
-          "name": "Poc Component - Header 4",
-          "type": "H1",
+          "name": "Poc Component - Endnote",
+          "type": "Endnote",
           "parameters": {
             "text": "Endnote | Sofia Pro | 12 pt | regular"
           },
           "styles": {
             "properties": {
-              "color": "#FF0000",
+              "color": "#F00000",
               "fontSize": 12
+            }
+          },
+          "width": 12
+        }
+      ]
+    },
+    {
+      "name": "Paragraph",
+      "components": [
+        {
+          "name": "Poc Component - Paragraph",
+          "type": "Paragraph",
+          "parameters": {
+            "text": "Paragraph | Sofia Pro | 16 pt | regular"
+          },
+          "styles": {
+            "properties": {
+              "color": "#F00F00",
+              "fontSize": 16
             }
           },
           "width": 12
