@@ -2,20 +2,15 @@
   "name": "driverAccidentsViolations",
   "componentGroups": [
     {
-      "name": "header1",
+      "name": "primaryCTA",
       "components": [
         {
           "name": "primaryCTA",
-          "components": [
-            {
-              "name": "primaryCTA",
-              "type": "IconAndTextCta",
-              "parameters": {
-                "text": "Continue"
-              },
-              "width": 12
-            }
-          ]
+          "type": "IconAndTextCta",
+          "parameters": {
+            "text": "Continue"
+          },
+          "width": 12
         }
       ]
     }
