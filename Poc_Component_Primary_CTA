@@ -2,17 +2,20 @@
   "name": "driverAccidentsViolations",
   "componentGroups": [
     {
-      "name": "primaryCTA",
-      "components": [
+      "name": "addAccidentCta",
+      "type": "IconAndTextCta",
+      "parameters": {
+        "icon": "https://s3.pact-insurance.amazonaws.com/plusIcon",
+        "text": "Add accident"
+      },
+      "entitySideEffects": [
         {
-          "name": "primaryCTA",
-          "type": "IconAndTextCta",
-          "parameters": {
-            "text": "Continue"
-          },
-          "width": 12
+          "entity": "accidents",
+          "verb": "init",
+          "idType": "UUIDv1"
         }
-      ]
+      ],
+      "width": 12
     }
   ]
 }
