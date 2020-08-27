@@ -1,0 +1,35 @@
+{
+  "name": "driverAccidentsViolations",
+  "componentGroups": [
+    {
+      "name": "SingleSelect",
+      "components": [
+        {
+          "name": "PoC Component - Single Select",
+          "type": "SingleSelect",
+          "parameters": [
+            {
+              "label": "Hit Pedestrian",
+              "value": "AAF"
+            },
+            {
+              "label": "Swerved / Lost Control",
+              "value": "AAF"
+            },
+            {
+              "label": "Acts of Nature / Weather-related",
+              "value": "COMP"
+            }
+          ],
+          "styles": {
+            "properties": {
+              "color": "#9c0c0F",
+              "fontSize": 18
+            }
+          },
+          "width": 12
+        }
+      ]
+    }
+  ]
+}
