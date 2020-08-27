@@ -77,25 +77,6 @@
           "width": 12
         }
       ]
-    },
-    {
-      "name": "Paragraph",
-      "components": [
-        {
-          "name": "Poc Component - Paragraph",
-          "type": "Paragraph",
-          "parameters": {
-            "text": "Paragraph | Sofia Pro | 16 pt | regular"
-          },
-          "styles": {
-            "properties": {
-              "color": "#F00F00",
-              "fontSize": 16
-            }
-          },
-          "width": 12
-        }
-      ]
     }
   ]
 }
