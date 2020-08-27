@@ -18,6 +18,11 @@
               "idType": "UUIDv1"
             }
           ],
+          "styles": {
+            "properties": {
+              "color": "#484EAA"
+            }
+          },
           "width": 12
         }
       ]
