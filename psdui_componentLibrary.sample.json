@@ -25,9 +25,9 @@
       "properties": {
         "fontFamily": "Sofia Pro",
         "fontWeight": "normal",
-        "fontSize": "28px",
+        "fontSize": "17px",
         "lineHeight": "0px",
-        "color": "#148554"
+        "color": "#FFFFFF"
       }
     }
   },
