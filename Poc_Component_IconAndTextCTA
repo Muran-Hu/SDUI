@@ -9,7 +9,7 @@
           "type": "IconAndTextCta",
           "parameters": {
             "icon": "https://s3.pact-insurance.amazonaws.com/plusIcon",
-            "text": "Add accident"
+            "text": "Icon and Text CTA"
           },
           "entitySideEffects": [
             {
