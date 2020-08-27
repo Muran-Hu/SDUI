@@ -20,7 +20,8 @@
           ],
           "styles": {
             "properties": {
-              "color": "#484EAA"
+              "color": "#484EAA",
+              "fontSize": "12px"
             }
           },
           "width": 12
