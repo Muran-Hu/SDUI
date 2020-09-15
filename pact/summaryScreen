@@ -1,0 +1,148 @@
+{
+  "sectionName": "accidentsViolations",
+  "name": "summaryScreen",
+  "componentGroups": [
+    {
+      "name": "title",
+      "components": [
+        {
+          "category": "TextBox",
+          "kind": "Header1",
+          "name": "title",
+          "parameters": {
+            "text": "How many accidents and violations have you had?"
+          }
+        }
+      ]
+    },
+    {
+      "name": "accidentsHeader",
+      "components": [
+        {
+          "category": "TextBox",
+          "kind": "Header2",
+          "name": "accidentsTitle",
+          "parameters": {
+            "text": "Accidents"
+          }
+        },
+        {
+          "category": "TextBox",
+          "kind": "Header3",
+          "name": "accidentsSubtitle",
+          "parameters": {
+            "text": "Only add accidents in the past 5 years."
+          }
+        }
+      ]
+    },
+    {
+      "name": "accidentsActions",
+      "components": [
+        {
+          "category": "Action",
+          "kind": "SummaryCellButton",
+          "name": "editAccidentButton",
+          "parameters": {
+            "title": "Dec 2019",
+            "value": "Hit a pole",
+            "accessory": {
+              "accessoryType": "none"
+            }
+          },
+          "payload": {
+            "accidentId": "accident-1"
+          }
+        },
+        {
+          "category": "Action",
+          "kind": "SummaryCellButton",
+          "name": "editAccidentButton",
+          "parameters": {
+            "title": "Jul 2019",
+            "value": "Hit a person",
+            "accessory": {
+              "accessoryType": "none"
+            }
+          },
+          "payload": {
+            "accidentId": "accident-2"
+          }
+        },
+        {
+          "category": "Action",
+          "kind": "IconAndTextButton",
+          "name": "addAccidentButton",
+          "parameters": {
+            "title": "Add accident",
+            "iconUrl": "https://pact-design-assets.s3.us-west-1.amazonaws.com/production/app_development/iconography/interaction_icons/icon_plus_circle.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "violationsHeader",
+      "components": [
+        {
+          "category": "TextBox",
+          "kind": "Header2",
+          "name": "violationsTitle",
+          "parameters": {
+            "text": "Violations"
+          }
+        },
+        {
+          "category": "TextBox",
+          "kind": "Header3",
+          "name": "violationsSubtitle",
+          "parameters": {
+            "text": "Only add violations in the past 5 years."
+          }
+        }
+      ]
+    },
+    {
+      "name": "violationsActions",
+      "components": [
+        {
+          "category": "Action",
+          "kind": "SummaryCellButton",
+          "name": "editViolationButton",
+          "parameters": {
+            "title": "Jul 2019",
+            "value": "Speeding ticket",
+            "accessory": {
+              "accessoryType": "none"
+            }
+          },
+          "payload": {
+            "violationId": "violation-1"
+          }
+        },
+        {
+          "category": "Action",
+          "kind": "IconAndTextButton",
+          "name": "addViolationButton",
+          "parameters": {
+            "title": "Add violation",
+            "iconUrl": "https://pact-design-assets.s3.us-west-1.amazonaws.com/production/app_development/iconography/interaction_icons/icon_plus_circle.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "endNote",
+      "components": [
+        {
+          "category": "TextBox",
+          "kind": "Endnote",
+          "name": "endNote",
+          "parameters": {
+            "text": "I confirm all accidents and violations have been added"
+          }
+        }
+      ]
+    }
+  ],
+  "actionEnableRules": []
+}
