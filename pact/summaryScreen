@@ -71,6 +71,21 @@
         },
         {
           "category": "Action",
+          "kind": "SummaryCellButton",
+          "name": "editAccidentButton",
+          "parameters": {
+            "title": "Oct 2019",
+            "value": "Hit a dog",
+            "accessory": {
+              "accessoryType": "none"
+            }
+          },
+          "payload": {
+            "accidentId": "accident-3"
+          }
+        },
+        {
+          "category": "Action",
           "kind": "IconAndTextButton",
           "name": "addAccidentButton",
           "parameters": {
