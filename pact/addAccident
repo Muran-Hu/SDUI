@@ -15,7 +15,7 @@
         },
         {
           "category": "TextBox",
-          "kind": "Header2",
+          "kind": "Header3",
           "name": "subtitle",
           "parameters": {
             "text": "Only add accidents in the past 5 years"
