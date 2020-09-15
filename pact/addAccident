@@ -1,5 +1,5 @@
 {
-	"sectionName": "accidentsViolations",  
+  "sectionName": "accidentsViolations",
   "name": "addAccident",
   "componentGroups": [
     {
@@ -36,16 +36,16 @@
               {
                 "label": "Hit Object/Property",
                 "value": {
-									"displayName": "Hit Object/Property",
-									"code": "AAF"
-								}
+                  "displayName": "Hit Object/Property",
+                  "code": "AAF"
+                }
               },
               {
                 "label": "Collision with Vehicle (Not-at-Fault)",
                 "value": {
-									"displayName": "Collision with Vehicle (Not-at-Fault)",
-									"code": "NAF"
-								}
+                  "displayName": "Collision with Vehicle (Not-at-Fault)",
+                  "code": "NAF"
+                }
               }
             ]
           },
