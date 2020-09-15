@@ -1,0 +1,178 @@
+{
+  "Header1": {
+    "category": "TextBox",
+    "parameterDefaults": {
+      "textStyle": {
+        "fontFamily": "Sofia Pro",
+        "fontStyle": "regular",
+        "fontWeight": "normal",
+        "fontSize": 32,
+        "textAlign": "left",
+        "color": "#2C2D36"
+      }
+    }
+  },
+  "Header2": {
+    "category": "TextBox",
+    "parameterDefaults": {
+      "textStyle": {
+        "fontFamily": "Sofia Pro",
+        "fontStyle": "bold",
+        "fontWeight": "normal",
+        "fontSize": 16,
+        "textAlign": "left",
+        "color": "#2C2D36"
+      }
+    }
+  },
+  "Header3": {
+    "category": "TextBox",
+    "parameterDefaults": {
+      "textStyle": {
+        "fontFamily": "Sofia Pro",
+        "fontStyle": "regular",
+        "fontWeight": "normal",
+        "fontSize": 16,
+        "textAlign": "left",
+        "color": "#94949E"
+      }
+    }
+  },
+  "Endnote": {
+    "category": "TextBox",
+    "parameterDefaults": {
+      "textStyle": {
+        "fontFamily": "Sofia Pro",
+        "fontStyle": "regular",
+        "fontWeight": "normal",
+        "fontSize": 12,
+        "textAlign": "left",
+        "color": "#2C2D36"
+      }
+    }
+  },
+  "ImageHolder": {
+    "category": "Media",
+    "parameterDefaults": {}
+  },
+  "DatePicker": {
+    "category": "DataField",
+    "parameterDefaults": {
+      "titleStyle": {
+        "fontFamily": "Sofia Pro",
+        "fontStyle": "regular",
+        "fontWeight": "normal",
+        "fontSize": 16,
+        "textAlign": "left",
+        "color": "#94949E"
+      },
+      "valueStyle": {
+        "fontFamily": "Sofia Pro",
+        "fontStyle": "bold",
+        "fontWeight": "normal",
+        "fontSize": 16,
+        "textAlign": "left",
+        "color": "#2C2D36"
+      }
+    }
+  },
+  "Picker": {
+    "category": "DataField",
+    "parameterDefaults": {
+      "titleStyle": {
+        "fontFamily": "Sofia Pro",
+        "fontStyle": "regular",
+        "fontWeight": "normal",
+        "fontSize": 16,
+        "textAlign": "left",
+        "color": "#94949E"
+      },
+      "valueStyle": {
+        "fontFamily": "Sofia Pro",
+        "fontStyle": "bold",
+        "fontWeight": "normal",
+        "fontSize": 16,
+        "textAlign": "left",
+        "color": "#2C2D36"
+      }
+    }
+  },
+  "SingleSelect": {
+    "category": "DataField",
+    "parameterDefaults": {
+      "titleStyle": {
+        "fontFamily": "Sofia Pro",
+        "fontStyle": "regular",
+        "fontWeight": "normal",
+        "fontSize": 16,
+        "textAlign": "left",
+        "color": "#94949E"
+      },
+      "valueStyle": {
+        "fontFamily": "Sofia Pro",
+        "fontStyle": "bold",
+        "fontWeight": "normal",
+        "fontSize": 16,
+        "textAlign": "left",
+        "color": "#2C2D36"
+      }
+    }
+  },
+  "TextInputField": {
+    "category": "DataField",
+    "parameterDefaults": {
+      "titleStyle": {
+        "fontFamily": "Sofia Pro",
+        "fontStyle": "regular",
+        "fontWeight": "normal",
+        "fontSize": 16,
+        "textAlign": "left",
+        "color": "#94949E"
+      },
+      "valueStyle": {
+        "fontFamily": "Sofia Pro",
+        "fontStyle": "bold",
+        "fontWeight": "normal",
+        "fontSize": 16,
+        "textAlign": "left",
+        "color": "#2C2D36"
+      }
+    }
+  },
+  "IconAndTextButton": {
+    "category": "Action",
+    "parameterDefaults": {
+      "titleStyle": {
+        "fontFamily": "Sofia Pro",
+        "fontStyle": "regular",
+        "fontWeight": "normal",
+        "fontSize": 16,
+        "textAlign": "left",
+        "color": "#94949E"
+      },
+      "iconColor": "#94949E"
+    }
+  },
+  "SummaryCellButton": {
+    "category": "Action",
+    "parameterDefaults": {
+      "titleStyle": {
+        "fontFamily": "Sofia Pro",
+        "fontStyle": "regular",
+        "fontWeight": "normal",
+        "fontSize": 16,
+        "textAlign": "left",
+        "color": "#94949E"
+      },
+      "valueStyle": {
+        "fontFamily": "Sofia Pro",
+        "fontStyle": "regular",
+        "fontWeight": "bold",
+        "fontSize": 16,
+        "textAlign": "left",
+        "color": "#94949E"
+      },
+      "accessory": "none"
+    }
+  }
+}
